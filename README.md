@@ -1,7 +1,5 @@
 # Demo pipenv
 
-
-
 ## Создание виртуального окружения
 
 ```shell
@@ -22,6 +20,13 @@ pipenv install fastapi
 pipenv install pytest --dev
 ```
 
+## Установка всех пакетов из окружения
+
+```shell
+pipenv install
+pipenv install --dev
+```
+
 ## Активация виртуального окружения
 
 ```shell
@@ -34,6 +39,12 @@ pipenv shell
 
 ```shell
 exit
+```
+
+## Удаление окружения
+
+```shell
+pipenv --rm
 ```
 
 ## Запуск скриптов внутри окружения (без активации)
