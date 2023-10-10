@@ -5,12 +5,15 @@ name = "pypi"
 
 [packages]
 fastapi = "*"
+uvicorn = "*"
 
 [dev-packages]
 pytest = "*"
+invoke = "*"
 
 [requires]
 python_version = "3.10"
 
 [scripts]
+runserver = "invoke runserver"
 printspam = "python -c \"print('I am a silly example, no one would need to do this')\""

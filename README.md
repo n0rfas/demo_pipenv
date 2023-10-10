@@ -40,4 +40,5 @@ exit
 
 ```shell
 pipenv run printspam
+pipenv run runserver
 ```
